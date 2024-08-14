@@ -7,6 +7,11 @@ pkgs.mkShellNoCC {
   packages = with pkgs; [
     cowsay
     lolcat
+    neovim
+    git
+    zsh
+    zig
+    gzip
   ];
 
   GREETING = "Hello, Nix!";
